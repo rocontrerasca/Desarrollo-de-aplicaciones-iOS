@@ -49,7 +49,7 @@ class Paises {
 }
 
 class Hamburguesas {
-    let hamburguesas = ["La sencilla", "The Ranch Burger", "Bacon Cheese Burger", "Ugly American", "Angus Young", "La Costeña", "La Indigo Encebollada", "La Hamburguesa Con Chili", "La Super Kaplan",          "La de Cordero", "La Big Boy", "Gordo Brooklyn", "La Doble", "La Garosa", "La Solo Carne", "Whopper Jr",  "La Casera", "A La Mexicana","La Todo Terreno"]
+    let hamburguesas = ["La sencilla", "The Ranch Burger", "Bacon Cheese Burger", "Ugly American", "Angus Young", "La Costeña", "La Indigo Encebollada", "La Hamburguesa Con Chili", "La Super Kaplan",          "La de Cordero", "La Big Boy", "Gordo Brooklyn", "La Doble", "La Garosa", "La Solo Carne", "Whopper Jr",  "La Casera", "A La Mexicana","La Todo Terreno", "La Colombiana"]
     
     let precios = ["$15.000", "$25.000", "$20.000", "$40.000", "$28.000", "$17.000", "$22.000", "$15.800", "$21.300", "$18.050",
                    "$14.999", "$19.700", "$23.100", "$22.800", "$27.550", "$24.350", "$25.750", "$20.500", "$27.150", "$16.700"]
