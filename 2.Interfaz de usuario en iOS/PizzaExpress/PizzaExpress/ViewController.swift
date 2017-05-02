@@ -1,14 +1,14 @@
 //
-//  FirstViewController.swift
+//  ViewController.swift
 //  PizzaExpress
 //
-//  Created by Richar on 29/04/17.
+//  Created by Richar on 1/05/17.
 //  Copyright © 2017 devSoft. All rights reserved.
 //
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

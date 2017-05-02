@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B9333B7D1EB502600065D12E"
+               BlueprintIdentifier = "B990F72A1EB7C36E00A4DDAE"
                BuildableName = "PizzaExpress.app"
                BlueprintName = "PizzaExpress"
                ReferencedContainer = "container:PizzaExpress.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B9333B7D1EB502600065D12E"
+            BlueprintIdentifier = "B990F72A1EB7C36E00A4DDAE"
             BuildableName = "PizzaExpress.app"
             BlueprintName = "PizzaExpress"
             ReferencedContainer = "container:PizzaExpress.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B9333B7D1EB502600065D12E"
+            BlueprintIdentifier = "B990F72A1EB7C36E00A4DDAE"
             BuildableName = "PizzaExpress.app"
             BlueprintName = "PizzaExpress"
             ReferencedContainer = "container:PizzaExpress.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B9333B7D1EB502600065D12E"
+            BlueprintIdentifier = "B990F72A1EB7C36E00A4DDAE"
             BuildableName = "PizzaExpress.app"
             BlueprintName = "PizzaExpress"
             ReferencedContainer = "container:PizzaExpress.xcodeproj">
