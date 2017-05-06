@@ -45,14 +45,14 @@ class ViewControllerIngredients: UIViewController {
         nextView.pizzaCrust = pizzaCrust
         nextView.pizzaCheese = pizzaCheese
         if jamonButton.selected == true { nextView.pizzaIngredients += jamonButton.currentTitle! }
-        if pavoButton.selected == true { nextView.pizzaIngredients += " " + pavoButton.currentTitle! }
-        if salchichaButton.selected == true { nextView.pizzaIngredients += " " + salchichaButton.currentTitle! }
-        if aceitunaButton.selected == true { nextView.pizzaIngredients += " " + aceitunaButton.currentTitle! }
-        if cebollaButton.selected == true { nextView.pizzaIngredients += " " + cebollaButton.currentTitle! }
-        if pepperoniButton.selected == true { nextView.pizzaIngredients += " " + pepperoniButton.currentTitle! }
-        if pimientoButton.selected == true { nextView.pizzaIngredients += " " + pimientoButton.currentTitle! }
-        if piñaButton.selected == true { nextView.pizzaIngredients += " " + piñaButton.currentTitle! }
-        if anchoaButton.selected == true { nextView.pizzaIngredients += " " + anchoaButton.currentTitle! }
+        if pavoButton.selected == true { nextView.pizzaIngredients += "\n" + pavoButton.currentTitle! }
+        if salchichaButton.selected == true { nextView.pizzaIngredients += "\n" + salchichaButton.currentTitle! }
+        if aceitunaButton.selected == true { nextView.pizzaIngredients += "\n" + aceitunaButton.currentTitle! }
+        if cebollaButton.selected == true { nextView.pizzaIngredients += "\n" + cebollaButton.currentTitle! }
+        if pepperoniButton.selected == true { nextView.pizzaIngredients += "\n" + pepperoniButton.currentTitle! }
+        if pimientoButton.selected == true { nextView.pizzaIngredients += "\n" + pimientoButton.currentTitle! }
+        if piñaButton.selected == true { nextView.pizzaIngredients += "\n" + piñaButton.currentTitle! }
+        if anchoaButton.selected == true { nextView.pizzaIngredients += "\n" + anchoaButton.currentTitle! }
     }
     
     @IBAction func ingredientsSelection(sender: UIButton) {
