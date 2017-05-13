@@ -104,7 +104,7 @@
                                     <action selector="sizeSelection:" destination="g1H-uL-z2q" eventType="touchUpInside" id="dbP-3x-gmM"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seleciona tamaño" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShJ-8y-HQM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Seleciona tamaño" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShJ-8y-HQM">
                                 <rect key="frame" x="217" y="97" width="166" height="23"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="166" id="Ine-l7-E9I"/>
