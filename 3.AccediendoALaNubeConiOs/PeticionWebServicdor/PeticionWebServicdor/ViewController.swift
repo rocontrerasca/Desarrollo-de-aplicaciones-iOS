@@ -42,6 +42,7 @@ class ViewController: UIViewController {
             (data, response, error) in
             // check for any errors
             guard error == nil else {
+                //self.showAlertBox(message: "A ocurrido un error de conexion")
                 self.lblResultado.text = "A ocurrido un error de conexion"
                 return
             }
@@ -61,8 +62,12 @@ class ViewController: UIViewController {
             }
         }
         task.resume()
-        
-        
+    }
+    
+    func showAlertBox(message: String){
+        let alertMessage = UIAlertController(title: "Conexion OpenLibrary", message: message, preferredStyle: UIAlertControllerStyle.alert)
+        alertMessage.addAction(UIAlertAction(title: "Cerrar", style: UIAlertActionStyle.default,handler: nil))
+        present(alertMessage, animated: true, completion: nil)
     }
 
 }
