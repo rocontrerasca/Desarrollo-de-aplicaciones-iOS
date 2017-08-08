@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func SearchingISBN(_ sender: UITextField, forEvent event: UIEvent) {
+        sender.resignFirstResponder()
         
         let ISBN = txtISBN.text!
         
