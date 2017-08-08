@@ -38,8 +38,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="24q-ja-48C">
-                                <rect key="frame" x="0.0" y="239" width="375" height="315"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="239" width="375" height="428"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -47,13 +47,13 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="24q-ja-48C" secondAttribute="trailing" id="5BH-Zg-aeB"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="24q-ja-48C" secondAttribute="bottom" constant="113" id="5ds-nu-UZX"/>
+                            <constraint firstAttribute="trailing" secondItem="24q-ja-48C" secondAttribute="trailing" id="1kA-TK-pcs"/>
                             <constraint firstAttribute="trailing" secondItem="xJ6-UO-4Ni" secondAttribute="trailing" id="HQu-h7-7TP"/>
                             <constraint firstItem="xJ6-UO-4Ni" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JcR-so-vu0"/>
-                            <constraint firstItem="24q-ja-48C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MGN-X0-pA9"/>
+                            <constraint firstItem="24q-ja-48C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="S4i-s0-I8R"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="24q-ja-48C" secondAttribute="bottom" id="Ydi-l3-lWx"/>
                             <constraint firstItem="xJ6-UO-4Ni" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="160" id="c1p-W3-PXS"/>
-                            <constraint firstItem="24q-ja-48C" firstAttribute="top" secondItem="xJ6-UO-4Ni" secondAttribute="bottom" constant="29" id="w1Q-oT-cu7"/>
+                            <constraint firstItem="24q-ja-48C" firstAttribute="top" secondItem="xJ6-UO-4Ni" secondAttribute="bottom" constant="29" id="vzO-Kp-Nb9"/>
                         </constraints>
                     </view>
                     <connections>
