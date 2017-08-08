@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PeticionWebServidor.xcodeproj">
+      location = "self:PeticionWebServicdor.xcodeproj">
    </FileRef>
 </Workspace>
