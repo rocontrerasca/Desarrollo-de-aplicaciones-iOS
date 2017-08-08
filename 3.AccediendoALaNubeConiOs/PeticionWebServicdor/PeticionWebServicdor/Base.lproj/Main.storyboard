@@ -30,12 +30,6 @@
                                     <action selector="SearchingISBN:forEvent:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="QmS-9C-EJz"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lblResultado" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhd-I3-tyY">
-                                <rect key="frame" x="1" y="226" width="374" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONSULTA POR ISBN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPS-O2-TaS">
                                 <rect key="frame" x="91" y="62" width="195" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -43,19 +37,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="24q-ja-48C">
+                                <rect key="frame" x="0.0" y="239" width="375" height="315"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Mhd-I3-tyY" firstAttribute="centerX" secondItem="xJ6-UO-4Ni" secondAttribute="centerX" id="H6r-Re-SQj"/>
+                            <constraint firstAttribute="trailing" secondItem="24q-ja-48C" secondAttribute="trailing" id="5BH-Zg-aeB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="24q-ja-48C" secondAttribute="bottom" constant="113" id="5ds-nu-UZX"/>
                             <constraint firstAttribute="trailing" secondItem="xJ6-UO-4Ni" secondAttribute="trailing" id="HQu-h7-7TP"/>
                             <constraint firstItem="xJ6-UO-4Ni" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JcR-so-vu0"/>
-                            <constraint firstItem="Mhd-I3-tyY" firstAttribute="top" secondItem="xJ6-UO-4Ni" secondAttribute="bottom" constant="16" id="Uj1-ge-4Gd"/>
+                            <constraint firstItem="24q-ja-48C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MGN-X0-pA9"/>
                             <constraint firstItem="xJ6-UO-4Ni" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="160" id="c1p-W3-PXS"/>
-                            <constraint firstItem="Mhd-I3-tyY" firstAttribute="leading" secondItem="xJ6-UO-4Ni" secondAttribute="leading" constant="1" id="hY6-3X-jCt"/>
+                            <constraint firstItem="24q-ja-48C" firstAttribute="top" secondItem="xJ6-UO-4Ni" secondAttribute="bottom" constant="29" id="w1Q-oT-cu7"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="lblResultado" destination="Mhd-I3-tyY" id="FRC-S3-6Dr"/>
+                        <outlet property="lblResultado" destination="24q-ja-48C" id="aQB-vA-SuM"/>
                         <outlet property="txtISBN" destination="xJ6-UO-4Ni" id="q06-0U-hDg"/>
                     </connections>
                 </viewController>

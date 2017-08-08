@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var lblResultado: UILabel!
+    @IBOutlet weak var lblResultado: UITextView!
     @IBOutlet weak var txtISBN: UITextField!
     
     override func viewDidLoad() {
@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        lblResultado.resignFirstResponder()
         // Dispose of any resources that can be recreated.
     }
     
