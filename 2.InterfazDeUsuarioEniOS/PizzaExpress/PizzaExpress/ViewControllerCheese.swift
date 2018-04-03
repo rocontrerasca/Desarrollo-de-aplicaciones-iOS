@@ -29,41 +29,41 @@ class ViewControllerCheese: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let nextView = segue.destinationViewController as! ViewControllerIngredients
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextView = segue.destination as! ViewControllerIngredients
         
         nextView.pizzaSize = pizzaSize
         nextView.pizzaCrust = pizzaCrust
         nextView.pizzaCheese = cheeseSelected
     }
 
-    @IBAction func cheeseSelection(sender: UIButton) {
+    @IBAction func cheeseSelection(_ sender: UIButton) {
         cheeseSelected = sender.currentTitle!
         
         if cheeseSelected == "Mozarella"{
-            mozarellaButton.selected = true
-            chedarButton.selected = false
-            parmesanoButton.selected = false
-            noCheeseButton.selected = false
+            mozarellaButton.isSelected = true
+            chedarButton.isSelected = false
+            parmesanoButton.isSelected = false
+            noCheeseButton.isSelected = false
         }
         else if cheeseSelected == "Chedar"{
-            mozarellaButton.selected = false
-            chedarButton.selected = true
-            parmesanoButton.selected = false
-            noCheeseButton.selected = false
+            mozarellaButton.isSelected = false
+            chedarButton.isSelected = true
+            parmesanoButton.isSelected = false
+            noCheeseButton.isSelected = false
         }
         else if cheeseSelected == "Parmesano"{
-            mozarellaButton.selected = false
-            chedarButton.selected = false
-            parmesanoButton.selected = true
-            noCheeseButton.selected = false
+            mozarellaButton.isSelected = false
+            chedarButton.isSelected = false
+            parmesanoButton.isSelected = true
+            noCheeseButton.isSelected = false
         }
         else {
-            mozarellaButton.selected = false
-            chedarButton.selected = false
-            parmesanoButton.selected = false
-            noCheeseButton.selected = true
+            mozarellaButton.isSelected = false
+            chedarButton.isSelected = false
+            parmesanoButton.isSelected = false
+            noCheeseButton.isSelected = true
         }
-        continueButton.hidden = false
+        continueButton.isHidden = false
     }
 }

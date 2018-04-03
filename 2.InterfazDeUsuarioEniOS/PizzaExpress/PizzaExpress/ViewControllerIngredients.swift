@@ -25,7 +25,7 @@ class ViewControllerIngredients: UIViewController {
     var pizzaSize = ""
     var pizzaCrust = ""
     var pizzaCheese = ""
-    var ingredients = []
+    var ingredients = [15]
     var ingredientsSelected = 0
     
     override func viewDidLoad() {
@@ -38,36 +38,36 @@ class ViewControllerIngredients: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let nextView = segue.destinationViewController as! ViewControllerConfirm
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextView = segue.destination as! ViewControllerConfirm
         
         nextView.pizzaSize = pizzaSize
         nextView.pizzaCrust = pizzaCrust
         nextView.pizzaCheese = pizzaCheese
-        if jamonButton.selected == true { nextView.pizzaIngredients += jamonButton.currentTitle! }
-        if pavoButton.selected == true { nextView.pizzaIngredients += "\n" + pavoButton.currentTitle! }
-        if salchichaButton.selected == true { nextView.pizzaIngredients += "\n" + salchichaButton.currentTitle! }
-        if aceitunaButton.selected == true { nextView.pizzaIngredients += "\n" + aceitunaButton.currentTitle! }
-        if cebollaButton.selected == true { nextView.pizzaIngredients += "\n" + cebollaButton.currentTitle! }
-        if pepperoniButton.selected == true { nextView.pizzaIngredients += "\n" + pepperoniButton.currentTitle! }
-        if pimientoButton.selected == true { nextView.pizzaIngredients += "\n" + pimientoButton.currentTitle! }
-        if piñaButton.selected == true { nextView.pizzaIngredients += "\n" + piñaButton.currentTitle! }
-        if anchoaButton.selected == true { nextView.pizzaIngredients += "\n" + anchoaButton.currentTitle! }
+        if jamonButton.isSelected == true { nextView.pizzaIngredients += jamonButton.currentTitle! }
+        if pavoButton.isSelected == true { nextView.pizzaIngredients += "\n" + pavoButton.currentTitle! }
+        if salchichaButton.isSelected == true { nextView.pizzaIngredients += "\n" + salchichaButton.currentTitle! }
+        if aceitunaButton.isSelected == true { nextView.pizzaIngredients += "\n" + aceitunaButton.currentTitle! }
+        if cebollaButton.isSelected == true { nextView.pizzaIngredients += "\n" + cebollaButton.currentTitle! }
+        if pepperoniButton.isSelected == true { nextView.pizzaIngredients += "\n" + pepperoniButton.currentTitle! }
+        if pimientoButton.isSelected == true { nextView.pizzaIngredients += "\n" + pimientoButton.currentTitle! }
+        if piñaButton.isSelected == true { nextView.pizzaIngredients += "\n" + piñaButton.currentTitle! }
+        if anchoaButton.isSelected == true { nextView.pizzaIngredients += "\n" + anchoaButton.currentTitle! }
     }
     
-    @IBAction func ingredientsSelection(sender: UIButton) {
-        if sender.selected == true{
+    @IBAction func ingredientsSelection(_ sender: UIButton) {
+        if sender.isSelected == true{
             if ingredientsSelected > 1{
                 ingredientsSelected -= 1
-                sender.selected = false
+                sender.isSelected = false
             }
         }
         else{
             if ingredientsSelected < 5{
                 ingredientsSelected += 1
-                sender.selected = true
+                sender.isSelected = true
             }
         }        
-        continueButton.hidden = false
+        continueButton.isHidden = false
     }
 }

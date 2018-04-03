@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3QB-3f-bRG">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3QB-3f-bRG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Pizza Express-->
@@ -17,7 +21,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A continuación podrás armar tu pizza perfecta" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vmc-Ae-xK2">
@@ -26,11 +30,11 @@
                                     <constraint firstAttribute="width" constant="248" id="ymY-T5-wFE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="It8-KF-ZIw">
-                                <rect key="frame" x="258" y="374" width="84" height="30"/>
+                                <rect key="frame" x="145.5" y="441" width="84" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="6mp-40-kYp"/>
                                     <constraint firstAttribute="width" constant="84" id="FSb-Ew-k1P"/>
@@ -42,7 +46,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.87175107002258301" green="0.96418493986129761" blue="0.87819355726242065" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.84454673528671265" green="0.96058505773544312" blue="0.84925299882888794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Vmc-Ae-xK2" secondAttribute="bottom" constant="371" id="HkJ-UO-tn4"/>
                             <constraint firstItem="Vmc-Ae-xK2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VjE-gg-daE"/>
@@ -68,37 +72,37 @@
                         <viewControllerLayoutGuide type="bottom" id="DUB-It-JJi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Qnt-Ti-B7n">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Sp9-qX-YPn">
-                                <rect key="frame" x="266" y="336" width="68" height="26"/>
+                                <rect key="frame" x="153.5" y="369.5" width="68" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="68" id="a7O-8x-NSC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Grande">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="sizeSelection:" destination="g1H-uL-z2q" eventType="touchUpInside" id="uJ3-DX-G7B"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="cwX-Y6-165">
-                                <rect key="frame" x="261" y="282" width="78" height="36"/>
+                                <rect key="frame" x="148.5" y="315.5" width="78" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="78" id="5Ar-jC-eFW"/>
                                     <constraint firstAttribute="height" constant="36" id="BMr-db-j9r"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Mediana">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="sizeSelection:" destination="g1H-uL-z2q" eventType="touchUpInside" id="dbP-3x-gmM"/>
@@ -110,28 +114,28 @@
                                     <constraint firstAttribute="width" constant="166" id="Ine-l7-E9I"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="SEv-Zz-DjA">
-                                <rect key="frame" x="271" y="238" width="58" height="36"/>
+                                <rect key="frame" x="158.5" y="271.5" width="58" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="7vO-no-ZWy"/>
                                     <constraint firstAttribute="width" constant="58" id="QQa-tM-lal"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Chica">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393505494964" green="1" blue="0.24634594530273524" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393505494964" green="1" blue="0.24634594530273524" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="highlighted">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="focused">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="sizeSelection:" destination="g1H-uL-z2q" eventType="touchUpInside" id="emX-px-Gh1"/>
@@ -146,7 +150,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.87175107002258301" green="0.96418493986129761" blue="0.87819355726242065" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.84454673528671265" green="0.96058505773544312" blue="0.84925299882888794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="SEv-Zz-DjA" firstAttribute="centerY" secondItem="Qnt-Ti-B7n" secondAttribute="centerY" constant="-44" id="4ME-rT-lZR"/>
                             <constraint firstItem="SEv-Zz-DjA" firstAttribute="centerX" secondItem="Qnt-Ti-B7n" secondAttribute="centerX" id="639-NM-y2t"/>
@@ -188,7 +192,7 @@
                         <viewControllerLayoutGuide type="bottom" id="LIe-t2-gsz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ils-xZ-pjF">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Seleccionar tipo de masa" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88R-aT-MIk">
@@ -197,63 +201,63 @@
                                     <constraint firstAttribute="width" constant="230" id="Oe8-Bd-C57"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5Ww-ne-iuQ">
-                                <rect key="frame" x="263" y="258" width="75" height="30"/>
+                                <rect key="frame" x="150" y="291.5" width="75" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="8gF-fy-WPa"/>
                                     <constraint firstAttribute="height" constant="30" id="aFP-fk-sdk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Delgada">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="crustSelected:" destination="RKM-45-7Wp" eventType="touchUpInside" id="QPb-tY-h6G"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="OwW-LO-dRY">
-                                <rect key="frame" x="259" y="296" width="82" height="30"/>
+                                <rect key="frame" x="146" y="329.5" width="82" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="82" id="dzn-hV-Hu4"/>
                                     <constraint firstAttribute="height" constant="30" id="vIj-UA-8YY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Crugiente">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="crustSelected:" destination="RKM-45-7Wp" eventType="touchUpInside" id="HaB-0Z-4ag"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1Wr-3x-1Va">
-                                <rect key="frame" x="270" y="334" width="61" height="30"/>
+                                <rect key="frame" x="157" y="367.5" width="61" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="5x0-zz-so1"/>
                                     <constraint firstAttribute="width" constant="61" id="TMY-9O-uJK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Gruesa">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="crustSelected:" destination="RKM-45-7Wp" eventType="touchUpInside" id="3sW-9M-8qG"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZPN-EM-Hw1">
-                                <rect key="frame" x="256" y="477" width="88" height="30"/>
+                                <rect key="frame" x="144.5" y="544" width="86" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="uP0-Fd-udd"/>
                                 </constraints>
@@ -264,7 +268,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.87175107002258301" green="0.96418493986129761" blue="0.87819355726242065" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.84454673528671265" green="0.96058505773544312" blue="0.84925299882888794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="88R-aT-MIk" firstAttribute="centerX" secondItem="ils-xZ-pjF" secondAttribute="centerX" id="2Ct-Ig-0fO"/>
                             <constraint firstItem="5Ww-ne-iuQ" firstAttribute="centerX" secondItem="OwW-LO-dRY" secondAttribute="centerX" id="5dF-wO-2Sc"/>
@@ -299,7 +303,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Pb7-Eq-D88"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sPi-KT-uT2">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Seleccionar queso" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffl-Y3-TBn">
@@ -309,7 +313,7 @@
                                     <constraint firstAttribute="width" constant="185" id="sPA-Pc-UhG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAj-NH-BTl">
@@ -319,10 +323,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Mozarella">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="cheeseSelection:" destination="S6b-Ss-kHS" eventType="touchUpInside" id="PuK-L0-FqK"/>
@@ -335,10 +339,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Parmesano">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="cheeseSelection:" destination="S6b-Ss-kHS" eventType="touchUpInside" id="2Qw-l7-E8f"/>
@@ -351,10 +355,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Chedar">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="cheeseSelection:" destination="S6b-Ss-kHS" eventType="touchUpInside" id="zy5-Ku-CRe"/>
@@ -367,17 +371,17 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Sin queso">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="cheeseSelection:" destination="S6b-Ss-kHS" eventType="touchUpInside" id="vt2-f2-JVl"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DFT-pB-fIh">
-                                <rect key="frame" x="256" y="454" width="88" height="30"/>
+                                <rect key="frame" x="144.5" y="521" width="86" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="k64-lm-2SD"/>
                                 </constraints>
@@ -388,7 +392,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.87175107002258301" green="0.96418493986129761" blue="0.87819355726242065" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.84454673528671265" green="0.96058505773544312" blue="0.84925299882888794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hXm-6a-5eu" firstAttribute="top" secondItem="dAj-NH-BTl" secondAttribute="bottom" constant="8" symbolic="YES" id="0Jz-mx-CWZ"/>
                             <constraint firstItem="r2y-iA-zv4" firstAttribute="centerX" secondItem="sPi-KT-uT2" secondAttribute="centerX" id="1w8-qy-Chd"/>
@@ -430,7 +434,7 @@
                         <viewControllerLayoutGuide type="bottom" id="BLD-Qn-LnX"/>
                     </layoutGuides>
                     <view key="view" tag="1" contentMode="scaleToFill" id="Usq-hX-XiM">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Selecciona de 1 a 5 ingredientes" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vg-0R-e4g">
@@ -439,151 +443,151 @@
                                     <constraint firstAttribute="width" constant="301" id="b38-Ir-wxt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nHg-wN-Ssj">
-                                <rect key="frame" x="189" y="160" width="65" height="30"/>
+                                <rect key="frame" x="76.5" y="193.5" width="65" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Jamón">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="ingredientsSelection:" destination="CLX-Ae-d3m" eventType="touchUpInside" id="8Jb-5Z-zax"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ct3-u9-Mqa">
-                                <rect key="frame" x="198" y="198" width="46" height="30"/>
+                                <rect key="frame" x="85.5" y="231.5" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="1BK-Dg-FqB"/>
                                     <constraint firstAttribute="width" constant="46" id="MvC-wu-EQJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Pavo">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="ingredientsSelection:" destination="CLX-Ae-d3m" eventType="touchUpInside" id="FCW-q7-CJM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="oKm-gf-gVc">
-                                <rect key="frame" x="324" y="198" width="82" height="30"/>
+                                <rect key="frame" x="211.5" y="231.5" width="82" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Salchicha">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="ingredientsSelection:" destination="CLX-Ae-d3m" eventType="touchUpInside" id="O0U-w1-YMV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="26h-2F-brb">
-                                <rect key="frame" x="194" y="235" width="73" height="30"/>
+                                <rect key="frame" x="81.5" y="268.5" width="73" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="73" id="eOv-ZF-V8e"/>
                                     <constraint firstAttribute="height" constant="30" id="qEs-cW-9hH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Aceituna">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="ingredientsSelection:" destination="CLX-Ae-d3m" eventType="touchUpInside" id="qzT-P2-VpY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="MbQ-3p-533">
-                                <rect key="frame" x="324" y="235" width="63" height="30"/>
+                                <rect key="frame" x="211.5" y="268.5" width="63" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="63" id="6cw-gL-vGD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Cebolla">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="ingredientsSelection:" destination="CLX-Ae-d3m" eventType="touchUpInside" id="8nF-4R-Dm4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hWb-cb-Kn2">
-                                <rect key="frame" x="198" y="280" width="69" height="30"/>
+                                <rect key="frame" x="85.5" y="313.5" width="69" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="nVg-a1-poY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Pimiento">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="ingredientsSelection:" destination="CLX-Ae-d3m" eventType="touchUpInside" id="jHZ-y2-9TM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5hX-br-RCa">
-                                <rect key="frame" x="324" y="280" width="46" height="30"/>
+                                <rect key="frame" x="211.5" y="313.5" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="Drx-mI-zNm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Piña">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="ingredientsSelection:" destination="CLX-Ae-d3m" eventType="touchUpInside" id="sRA-0A-dP0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="uHz-Ip-FdA">
-                                <rect key="frame" x="264" y="318" width="73" height="30"/>
+                                <rect key="frame" x="151" y="351.5" width="73" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="73" id="D1e-2l-br9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Anchoa">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="ingredientsSelection:" destination="CLX-Ae-d3m" eventType="touchUpInside" id="1XL-uv-e9u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="6La-ka-GWT">
-                                <rect key="frame" x="324" y="160" width="82" height="30"/>
+                                <rect key="frame" x="211.5" y="193.5" width="82" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="82" id="sPr-aD-wbu"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Pepperoni">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="selected">
-                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25269393509999999" green="1" blue="0.24634594530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="ingredientsSelection:" destination="CLX-Ae-d3m" eventType="touchUpInside" id="asd-Ia-oJn"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="cde-IB-RDY">
-                                <rect key="frame" x="256" y="473" width="88" height="30"/>
+                                <rect key="frame" x="144.5" y="540" width="86" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="zeq-cp-poD"/>
                                 </constraints>
@@ -594,7 +598,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.87175107002258301" green="0.96418493986129761" blue="0.87819355726242065" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.84454673528671265" green="0.96058505773544312" blue="0.84925299882888794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="26h-2F-brb" firstAttribute="top" secondItem="MbQ-3p-533" secondAttribute="top" id="1YB-Vd-dY8"/>
                             <constraint firstItem="6La-ka-GWT" firstAttribute="centerY" secondItem="Usq-hX-XiM" secondAttribute="centerY" constant="-125" id="48c-4T-hag"/>
@@ -669,80 +673,81 @@
                         <viewControllerLayoutGuide type="bottom" id="FB4-6d-vrJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleAspectFit" id="wvf-HC-Ztx">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tamaño" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkn-Z7-RPs">
-                                <rect key="frame" x="264" y="155" width="73" height="21"/>
+                                <rect key="frame" x="152" y="155" width="73" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lblSize" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzG-y9-0PA">
-                                <rect key="frame" x="252" y="176" width="96" height="21"/>
+                                <rect key="frame" x="140" y="176" width="96" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="96" id="7aG-KO-iUT"/>
                                     <constraint firstAttribute="height" constant="21" id="TTa-26-6aM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Masa" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B40-yh-0bE">
-                                <rect key="frame" x="264" y="215" width="73" height="21"/>
+                                <rect key="frame" x="152" y="215" width="73" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lblCrust" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tn3-zD-kcG">
-                                <rect key="frame" x="252" y="236" width="96" height="21"/>
+                                <rect key="frame" x="140" y="236" width="96" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="SgE-cm-3zN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Queso" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mET-Mw-d4b">
-                                <rect key="frame" x="264" y="274" width="73" height="21"/>
+                                <rect key="frame" x="152" y="274" width="73" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Tl5-Qq-lgi"/>
                                     <constraint firstAttribute="width" constant="73" id="jCe-yL-cHh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lblCheese" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjQ-Ge-kHu">
-                                <rect key="frame" x="252" y="295" width="96" height="21"/>
+                                <rect key="frame" x="140" y="295" width="96" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="cIt-av-hyv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredientes" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGr-OK-PfB">
-                                <rect key="frame" x="247" y="332" width="106" height="21"/>
+                                <rect key="frame" x="135" y="332" width="106" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="aio-4K-VuP"/>
                                     <constraint firstAttribute="width" constant="106" id="uuq-TR-LCg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="lblIngredients" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKm-qp-5Qn">
-                                <rect key="frame" x="203" y="332" width="195" height="179"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lblIngredients" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKm-qp-5Qn">
+                                <rect key="frame" x="90" y="353" width="195" height="179"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="179" id="Xjt-4k-38t"/>
+                                    <constraint firstAttribute="width" constant="195" id="5jS-cB-vwa"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="4WY-iW-vv7">
-                                <rect key="frame" x="191" y="502" width="97" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="4WY-iW-vv7">
+                                <rect key="frame" x="90" y="548" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Confirmar"/>
                                 <connections>
@@ -751,7 +756,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirmación de pedido" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7q-3U-bL7">
-                                <rect key="frame" x="165" y="72" width="270" height="39"/>
+                                <rect key="frame" x="53" y="72" width="270" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="TQN-TI-A2U"/>
                                     <constraint firstAttribute="width" constant="270" id="xU0-Fz-AHK"/>
@@ -760,10 +765,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DDW-Hh-6ou">
-                                <rect key="frame" x="329" y="502" width="97" height="30"/>
+                                <rect key="frame" x="212" y="548" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Cancelar">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="resetOrder:" destination="efW-mR-Tge" eventType="touchUpInside" id="UfU-PU-uv6"/>
@@ -774,37 +779,34 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.87175107002258301" green="0.96418493986129761" blue="0.87819355726242065" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.84454673528671265" green="0.96058505773544312" blue="0.84925299882888794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="DDW-Hh-6ou" firstAttribute="centerY" secondItem="wvf-HC-Ztx" secondAttribute="centerY" constant="217" id="2cj-yq-Ual"/>
+                            <constraint firstItem="FB4-6d-vrJ" firstAttribute="top" secondItem="WKm-qp-5Qn" secondAttribute="bottom" constant="135" id="2bu-MQ-c0Z"/>
+                            <constraint firstItem="DDW-Hh-6ou" firstAttribute="centerY" secondItem="wvf-HC-Ztx" secondAttribute="centerY" constant="229.5" id="2cj-yq-Ual"/>
                             <constraint firstItem="mET-Mw-d4b" firstAttribute="top" secondItem="tn3-zD-kcG" secondAttribute="bottom" constant="17" id="2kE-IJ-9Ng"/>
                             <constraint firstItem="mET-Mw-d4b" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" constant="0.5" id="4r4-Gk-d5e"/>
                             <constraint firstItem="B40-yh-0bE" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" constant="0.5" id="6Jj-Jf-bvG"/>
                             <constraint firstItem="yzG-y9-0PA" firstAttribute="top" secondItem="zkn-Z7-RPs" secondAttribute="bottom" id="B0Z-05-eML"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WKm-qp-5Qn" secondAttribute="trailing" constant="74" id="BKF-WW-BL6"/>
                             <constraint firstItem="zkn-Z7-RPs" firstAttribute="top" secondItem="T7q-3U-bL7" secondAttribute="bottom" constant="44" id="CvV-gi-ncp"/>
                             <constraint firstItem="T7q-3U-bL7" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" id="E9Z-xp-tRi"/>
                             <constraint firstItem="mET-Mw-d4b" firstAttribute="leading" secondItem="zkn-Z7-RPs" secondAttribute="leading" id="EMW-Mv-kuB"/>
-                            <constraint firstItem="jGr-OK-PfB" firstAttribute="centerX" secondItem="WKm-qp-5Qn" secondAttribute="centerX" id="EgY-zz-ZXt"/>
-                            <constraint firstItem="DDW-Hh-6ou" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" constant="77.5" id="FFT-Qz-Zne"/>
+                            <constraint firstItem="DDW-Hh-6ou" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" constant="73" id="FFT-Qz-Zne"/>
+                            <constraint firstItem="WKm-qp-5Qn" firstAttribute="top" secondItem="jGr-OK-PfB" secondAttribute="top" constant="21" id="GgK-u1-WpK"/>
                             <constraint firstItem="zkn-Z7-RPs" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" constant="0.5" id="Iss-Tj-KX1"/>
                             <constraint firstItem="WjQ-Ge-kHu" firstAttribute="leading" secondItem="yzG-y9-0PA" secondAttribute="leading" id="JK2-zr-WKe"/>
-                            <constraint firstItem="WKm-qp-5Qn" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" id="LnT-8j-gOf"/>
                             <constraint firstItem="T7q-3U-bL7" firstAttribute="top" secondItem="PXk-n9-vJQ" secondAttribute="bottom" constant="8" symbolic="YES" id="PCV-yp-fMb"/>
                             <constraint firstItem="WjQ-Ge-kHu" firstAttribute="leading" secondItem="tn3-zD-kcG" secondAttribute="leading" id="Ph4-H5-3dw"/>
                             <constraint firstItem="jGr-OK-PfB" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" id="PpL-AU-2tY"/>
-                            <constraint firstItem="4WY-iW-vv7" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" constant="-60.5" id="QPj-ps-b3h"/>
                             <constraint firstItem="tn3-zD-kcG" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" id="QhZ-92-PQo"/>
                             <constraint firstItem="yzG-y9-0PA" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" id="Qkv-NA-XbD"/>
                             <constraint firstItem="WjQ-Ge-kHu" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" id="SQp-RG-y3A"/>
-                            <constraint firstItem="WKm-qp-5Qn" firstAttribute="top" secondItem="jGr-OK-PfB" secondAttribute="bottom" constant="-21" id="UJL-yz-Als"/>
                             <constraint firstItem="yzG-y9-0PA" firstAttribute="top" secondItem="wvf-HC-Ztx" secondAttribute="top" constant="176" id="VSr-Fa-zDg"/>
                             <constraint firstItem="jGr-OK-PfB" firstAttribute="top" secondItem="WjQ-Ge-kHu" secondAttribute="bottom" constant="16" id="WVx-oo-eqM"/>
                             <constraint firstItem="T7q-3U-bL7" firstAttribute="centerX" secondItem="zkn-Z7-RPs" secondAttribute="centerX" constant="-0.5" id="aNx-NX-YHs"/>
                             <constraint firstItem="T7q-3U-bL7" firstAttribute="centerX" secondItem="yzG-y9-0PA" secondAttribute="centerX" id="eXY-AB-G1p"/>
                             <constraint firstItem="B40-yh-0bE" firstAttribute="top" secondItem="yzG-y9-0PA" secondAttribute="bottom" constant="18" id="eyo-3e-egW"/>
                             <constraint firstItem="T7q-3U-bL7" firstAttribute="centerX" secondItem="B40-yh-0bE" secondAttribute="centerX" constant="-0.5" id="hDb-qk-Nki"/>
-                            <constraint firstItem="4WY-iW-vv7" firstAttribute="centerY" secondItem="wvf-HC-Ztx" secondAttribute="centerY" constant="217" id="k5C-Zi-QLK"/>
-                            <constraint firstItem="WKm-qp-5Qn" firstAttribute="centerX" secondItem="wvf-HC-Ztx" secondAttribute="centerX" constant="0.5" id="mm9-K4-IIo"/>
                             <constraint firstItem="tn3-zD-kcG" firstAttribute="top" secondItem="wvf-HC-Ztx" secondAttribute="top" constant="236" id="nIi-ND-NBO"/>
                             <constraint firstItem="tn3-zD-kcG" firstAttribute="top" secondItem="B40-yh-0bE" secondAttribute="bottom" id="tou-ji-4qg"/>
                             <constraint firstItem="WjQ-Ge-kHu" firstAttribute="top" secondItem="mET-Mw-d4b" secondAttribute="bottom" id="wP2-ra-3ZB"/>
@@ -834,26 +836,26 @@
                         <viewControllerLayoutGuide type="bottom" id="JAJ-Vc-3BH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="lXt-jp-IbJ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfecto, vamos a preparar tu pizza en un instante... Solo esperanos un poco más" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzk-fg-XGc">
-                                <rect key="frame" x="143" y="129" width="314" height="100"/>
+                                <rect key="frame" x="30.5" y="129" width="314" height="167"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="314" id="My1-mb-bmI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="z6U-xw-X0M">
-                                <rect key="frame" x="200" y="267" width="201" height="205"/>
+                                <rect key="frame" x="87" y="334" width="201" height="205"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="201" id="wU0-lt-6zx"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.87175107002258301" green="0.96418493986129761" blue="0.87819355726242065" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.84454673528671265" green="0.96058505773544312" blue="0.84925299882888794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Pzk-fg-XGc" firstAttribute="centerX" secondItem="lXt-jp-IbJ" secondAttribute="centerX" id="EvF-H8-zwG"/>
                             <constraint firstItem="JAJ-Vc-3BH" firstAttribute="top" secondItem="Pzk-fg-XGc" secondAttribute="bottom" constant="371" id="S0I-v5-HIe"/>
@@ -878,7 +880,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3QB-3f-bRG" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nqG-3a-1vs">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -892,9 +894,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="images.jpeg" width="220" height="229"/>
+        <image name="images.jpeg" width="1325" height="1300"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="C5D-Ha-1G3"/>
         <segue reference="jLd-hd-YIg"/>
     </inferredMetricsTieBreakers>
 </document>

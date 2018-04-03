@@ -54,7 +54,6 @@ class ViewController: UIViewController {
                                     }
                                         
                     let info = json["ISBN:" + ISBN] as! NSDictionary
-                    
                     let authorsArray = (info["authors"]! as! NSArray).mutableCopy() as! NSMutableArray
                     
                     let authors = authorsArray[0] as! NSDictionary

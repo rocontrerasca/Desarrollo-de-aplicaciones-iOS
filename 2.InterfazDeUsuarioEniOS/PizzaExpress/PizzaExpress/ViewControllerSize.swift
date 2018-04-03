@@ -26,30 +26,30 @@ class ViewControllerSize: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let nextView = segue.destinationViewController as! ViewControllerBread
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextView = segue.destination as! ViewControllerBread
         
         nextView.pizzaSize = sizeSelected
     }
     
-    @IBAction func sizeSelection(sender: UIButton) {
+    @IBAction func sizeSelection(_ sender: UIButton) {
         sizeSelected = sender.currentTitle!
         
         if sizeSelected == "Chica" {
-            sizeMediumButton.selected = false
-            sizeSmallButton.selected = true
-            sizeLargeButton.selected = false
+            sizeMediumButton.isSelected = false
+            sizeSmallButton.isSelected = true
+            sizeLargeButton.isSelected = false
         }
         else if sizeSelected == "Mediana" {
-            sizeMediumButton.selected = true
-            sizeSmallButton.selected = false
-            sizeLargeButton.selected = false
+            sizeMediumButton.isSelected = true
+            sizeSmallButton.isSelected = false
+            sizeLargeButton.isSelected = false
         }
         else{
-                sizeMediumButton.selected = false
-                sizeSmallButton.selected = false
-                sizeLargeButton.selected = true
+                sizeMediumButton.isSelected = false
+                sizeSmallButton.isSelected = false
+                sizeLargeButton.isSelected = true
         }        
-        continueButton.hidden = false
+        continueButton.isHidden = false
     }
 }

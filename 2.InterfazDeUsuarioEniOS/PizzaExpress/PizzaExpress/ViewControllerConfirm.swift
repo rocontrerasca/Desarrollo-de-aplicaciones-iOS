@@ -22,7 +22,7 @@ class ViewControllerConfirm: UIViewController {
     var pizzaCheese = ""
     var pizzaIngredients = ""
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         lblSize.text = pizzaSize
         lblCrust.text = pizzaCrust
         lblCheese.text = pizzaCheese
@@ -39,24 +39,24 @@ class ViewControllerConfirm: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func confirmAction(sender: UIButton) {
+    @IBAction func confirmAction(_ sender: UIButton) {
         
-        let alert = UIAlertController(title: "Confirmación", message: "¿Desea confirmar su pedido?", preferredStyle: .Alert)
+        let alert = UIAlertController(title: "Confirmación", message: "¿Desea confirmar su pedido?", preferredStyle: .alert)
         
-        alert.addAction(UIAlertAction(title: "Si", style: .Default, handler: { (action: UIAlertAction) -> Void in
-            self.performSegueWithIdentifier("cockingView", sender: self)
+        alert.addAction(UIAlertAction(title: "Si", style: .default, handler: { (action: UIAlertAction) -> Void in
+            self.performSegue(withIdentifier: "cockingView", sender: self)
             
         }))
         
-        self.presentViewController(alert, animated: true, completion: nil)
+        self.present(alert, animated: true, completion: nil)
     }
 
-    @IBAction func resetOrder(sender: UIButton) {
+    @IBAction func resetOrder(_ sender: UIButton) {
         
-        let alert = UIAlertController(title: "Borrar pedido", message: "Tu orden ha sido reiniciada", preferredStyle: .Alert)
+        let alert = UIAlertController(title: "Borrar pedido", message: "Tu orden ha sido reiniciada", preferredStyle: .alert)
         
-        alert.addAction(UIAlertAction(title: "Cerrar", style: .Default, handler: nil))
+        alert.addAction(UIAlertAction(title: "Cerrar", style: .default, handler: nil))
         
-        self.presentViewController(alert, animated: true, completion: nil)
+        self.present(alert, animated: true, completion: nil)
     }
 }

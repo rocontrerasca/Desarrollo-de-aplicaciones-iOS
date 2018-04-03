@@ -28,32 +28,32 @@ class ViewControllerBread: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let nextView = segue.destinationViewController as! ViewControllerCheese
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextView = segue.destination as! ViewControllerCheese
         
         nextView.pizzaSize = pizzaSize
         nextView.pizzaCrust = crustTypeSelected
     }
     
     
-    @IBAction func crustSelected(sender: UIButton) {
+    @IBAction func crustSelected(_ sender: UIButton) {
         crustTypeSelected = sender.currentTitle!
         
         if crustTypeSelected == "Delgada" {
-            crustThinButton.selected = true
-            crustCrunchyButton.selected = false
-            crustGrossButton.selected = false
+            crustThinButton.isSelected = true
+            crustCrunchyButton.isSelected = false
+            crustGrossButton.isSelected = false
         }
         else if crustTypeSelected == "Crugiente" {
-            crustThinButton.selected = false
-            crustCrunchyButton.selected = true
-            crustGrossButton.selected = false
+            crustThinButton.isSelected = false
+            crustCrunchyButton.isSelected = true
+            crustGrossButton.isSelected = false
         }
         else {
-            crustThinButton.selected = false
-            crustCrunchyButton.selected = false
-            crustGrossButton.selected = true
+            crustThinButton.isSelected = false
+            crustCrunchyButton.isSelected = false
+            crustGrossButton.isSelected = true
         }
-        continueButton.hidden = false
+        continueButton.isHidden = false
     }
 }
