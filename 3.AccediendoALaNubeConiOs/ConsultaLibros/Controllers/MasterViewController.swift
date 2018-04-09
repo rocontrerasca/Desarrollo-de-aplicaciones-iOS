@@ -14,7 +14,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
     var detailViewController: DetailViewController? = nil
     var managedObjectContext: NSManagedObjectContext? = nil
 
-    var historyBooks = [Book]()
+    var historyBooks = [BookControl.Book]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -98,7 +98,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         tableView.reloadData()
     }
 
-    func configureCell(_ cell: UITableViewCell, withBook book: Book) {
+    func configureCell(_ cell: UITableViewCell, withBook book: BookControl.Book) {
         cell.textLabel!.text = book.name
     }
 

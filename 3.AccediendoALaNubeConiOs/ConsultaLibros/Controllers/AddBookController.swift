@@ -18,7 +18,7 @@ class AddBookController: UIViewController {
     
     @IBOutlet weak var divContainer: UIStackView!
     
-    var book : Book = Book()
+    var book : BookControl.Book = BookControl.Book()
     
     @IBAction func searchBook(_ sender: UITextField) {
         divContainer.isHidden = true
@@ -99,7 +99,7 @@ class AddBookController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         divContainer.isHidden = true
-        book = Book()
+        book = BookControl.Book()
     }
 
     override func didReceiveMemoryWarning() {

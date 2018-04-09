@@ -32,7 +32,7 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: Book? {
+    var detailItem: BookControl.Book? {
         didSet {
             // Update the view.
             //configureView()

@@ -14,8 +14,8 @@
 		E8F61CAB2073AF1A0021016C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F61CA92073AF1A0021016C /* Main.storyboard */; };
 		E8F61CAD2073AF1A0021016C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F61CAC2073AF1A0021016C /* Assets.xcassets */; };
 		E8F61CB02073AF1A0021016C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F61CAE2073AF1A0021016C /* LaunchScreen.storyboard */; };
-		E8F61CBC2073B1010021016C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F61CBB2073B1010021016C /* Book.swift */; };
 		E8F61CBE2073C0320021016C /* AddBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F61CBD2073C0320021016C /* AddBookController.swift */; };
+		E8FEB5A9207BB36C00699810 /* BookControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEB5A8207BB36C00699810 /* BookControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		E8F61CAC2073AF1A0021016C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8F61CAF2073AF1A0021016C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8F61CB12073AF1A0021016C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8F61CBB2073B1010021016C /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		E8F61CBD2073C0320021016C /* AddBookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookController.swift; sourceTree = "<group>"; };
+		E8FEB5A8207BB36C00699810 /* BookControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		E8F61CB82073AF440021016C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E8F61CBB2073B1010021016C /* Book.swift */,
+				E8FEB5A8207BB36C00699810 /* BookControl.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8F61CBE2073C0320021016C /* AddBookController.swift in Sources */,
-				E8F61CBC2073B1010021016C /* Book.swift in Sources */,
+				E8FEB5A9207BB36C00699810 /* BookControl.swift in Sources */,
 				E8F61CA12073AF1A0021016C /* AppDelegate.swift in Sources */,
 				E8F61CA42073AF1A0021016C /* ConsultaLibros.xcdatamodeld in Sources */,
 				E8F61CA62073AF1A0021016C /* MasterViewController.swift in Sources */,

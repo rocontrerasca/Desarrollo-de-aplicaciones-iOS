@@ -825,7 +825,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v8Z-W4-TgQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1260" y="3796"/>
+            <point key="canvasLocation" x="487" y="4001"/>
         </scene>
         <!--Cocinando-->
         <scene sceneID="1cK-Je-Bm6">
@@ -897,7 +897,6 @@
         <image name="images.jpeg" width="1325" height="1300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="C5D-Ha-1G3"/>
         <segue reference="jLd-hd-YIg"/>
     </inferredMetricsTieBreakers>
 </document>
