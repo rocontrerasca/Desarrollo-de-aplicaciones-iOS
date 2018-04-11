@@ -29,7 +29,7 @@
         <!--Collection View Controller-->
         <scene sceneID="Dby-8X-9ll">
             <objects>
-                <collectionViewController modalTransitionStyle="flipHorizontal" id="iuV-aL-AHI" customClass="CollectionViewController" customModule="BuscarImagenesCollectionView" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController modalTransitionStyle="flipHorizontal" id="iuV-aL-AHI" customClass="CollectionViewController" customModule="BuscarImagenesCoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="iq3-Qz-wcC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,7 +41,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="35W-Cm-UUK" customClass="Image" customModule="BuscarImagenesCollectionView" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="35W-Cm-UUK" customClass="ImageItem" customModule="BuscarImagenesCoreData" customModuleProvider="target">
                                 <rect key="frame" x="60" y="50" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -68,7 +68,7 @@
                                 </connections>
                             </collectionViewCell>
                         </cells>
-                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="CellHeader" id="GPV-cn-8NX" customClass="Header" customModule="BuscarImagenesCollectionView" customModuleProvider="target">
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="CellHeader" id="GPV-cn-8NX" customClass="Header" customModule="BuscarImagenesCoreData" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
@@ -102,7 +102,7 @@
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" keyboardAppearance="alert" returnKeyType="search"/>
                             <connections>
-                                <action selector="searchImage:" destination="iuV-aL-AHI" eventType="editingDidEndOnExit" id="SQf-fj-Ezt"/>
+                                <action selector="searchImage:" destination="iuV-aL-AHI" eventType="editingDidEndOnExit" id="4Lb-Zh-urA"/>
                             </connections>
                         </textField>
                     </navigationItem>

@@ -9,9 +9,14 @@
 import UIKit
 import CoreData
 
-public class DBContext {
+public class db {
+    static var context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
-    static var context: NSManagedObjectContext = (UIApplication.sha)
-    
-    
+    static func save(){
+        do{
+          try self.context.save()
+        }
+        catch{
+        }        
+    }
 }
