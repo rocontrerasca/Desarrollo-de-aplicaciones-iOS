@@ -6,12 +6,12 @@
     </entity>
     <entity name="Section" representedClassName="Section" syncable="YES" codeGenerationType="class">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="have" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Image" inverseName="belongs" inverseEntity="Image" syncable="YES"/>
+        <relationship name="have" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Image" inverseName="belongs" inverseEntity="Image" syncable="YES"/>
     </entity>
     <fetchRequest name="getSection" entity="Section" predicateString="name == &quot;$sectionName&quot;"/>
     <fetchRequest name="getSections" entity="Section"/>
     <elements>
-        <element name="Image" positionX="-54" positionY="0" width="128" height="75"/>
-        <element name="Section" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Image" positionX="277" positionY="6" width="128" height="75"/>
+        <element name="Section" positionX="-63" positionY="-18" width="128" height="73"/>
     </elements>
 </model>

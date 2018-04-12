@@ -16,17 +16,13 @@ class CollectionViewController: UICollectionViewController {
     
     @IBAction func searchImage(_ sender: UITextField) {
         
-        if SectionControl.verifySection(nameToSearch: sender.text!){
-            
-        }
-        else{
+        if !db.verifySection(nameToSearch: sender.text!){
             let section = SectionItem(name: sender.text!, images: getImagesBySearch(tag: sender.text!))
             sections.append(section)
             
-            //SectionControl.addSection(name: section.name, images: section.images)
-            //db.save()
-        }
-        
+            db.addSection(name: section.name, images: section.images)
+            db.save()
+        }        
         //Refresh the view for the new search
         self.collectionView?.reloadData()
     }
@@ -79,6 +75,8 @@ class CollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        sections = db.getSections()
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -166,16 +164,5 @@ class CollectionViewController: UICollectionViewController {
      override func collectionView(_ collectionView: UICollectionView, performAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) {
      
      }
-     */
-    
-    struct SectionItem {
-        var name: String
-        var images : [UIImage]
-        
-        init(name:String, images:[UIImage]) {
-            self.name = name
-            self.images = images
-        }
-    }
-    
+     */    
 }
