@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B2434A621CC3DA300841D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2434A521CC3DA300841D19 /* AppDelegate.swift */; };
+		8B2434A821CC3DA300841D19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2434A721CC3DA300841D19 /* ViewController.swift */; };
+		8B2434AB21CC3DA300841D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2434A921CC3DA300841D19 /* Main.storyboard */; };
+		8B2434AD21CC3DA500841D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2434AC21CC3DA500841D19 /* Assets.xcassets */; };
+		8B2434B021CC3DA500841D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2434AE21CC3DA500841D19 /* LaunchScreen.storyboard */; };
+		8B2434BA21CC6C2B00841D19 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2434B921CC6C2B00841D19 /* SongCell.swift */; };
+		8B2434F821CD624800841D19 /* Dulcito-e-Coco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B2434EF21CD624800841D19 /* Dulcito-e-Coco.jpg */; };
+		8B2434F921CD624800841D19 /* Al-Filo-de-Tu-Amor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B2434F021CD624800841D19 /* Al-Filo-de-Tu-Amor.jpg */; };
+		8B2434FA21CD624800841D19 /* La-Bicicleta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B2434F121CD624800841D19 /* La-Bicicleta.jpg */; };
+		8B2434FB21CD624800841D19 /* Robarte-un-Beso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B2434F221CD624800841D19 /* Robarte-un-Beso.jpg */; };
+		8B2434FC21CD624800841D19 /* Por-Pura-Curiosidad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B2434F321CD624800841D19 /* Por-Pura-Curiosidad.jpg */; };
+		8B2434FD21CD624800841D19 /* Te-Sigo-Esperando.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B2434F421CD624800841D19 /* Te-Sigo-Esperando.jpg */; };
+		8B2434FE21CD624800841D19 /* Clandestino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B2434F521CD624800841D19 /* Clandestino.jpg */; };
+		8B2434FF21CD624800841D19 /* Deja-vu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B2434F621CD624800841D19 /* Deja-vu.jpg */; };
+		8B24350021CD624800841D19 /* El-Ratico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B2434F721CD624800841D19 /* El-Ratico.jpg */; };
+		8B24350A21CD64D300841D19 /* Te-Sigo-Esperando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B24350121CD64D300841D19 /* Te-Sigo-Esperando.mp3 */; };
+		8B24350B21CD64D300841D19 /* Al-Filo-de-Tu-Amor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B24350221CD64D300841D19 /* Al-Filo-de-Tu-Amor.mp3 */; };
+		8B24350C21CD64D300841D19 /* La-Bicicleta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B24350321CD64D300841D19 /* La-Bicicleta.mp3 */; };
+		8B24350D21CD64D300841D19 /* Robarte-un-Beso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B24350421CD64D300841D19 /* Robarte-un-Beso.mp3 */; };
+		8B24350E21CD64D300841D19 /* El-Ratico.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B24350521CD64D300841D19 /* El-Ratico.mp3 */; };
+		8B24350F21CD64D300841D19 /* Dulcito-e-Coco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B24350621CD64D300841D19 /* Dulcito-e-Coco.mp3 */; };
+		8B24351021CD64D300841D19 /* Deja-vu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B24350721CD64D300841D19 /* Deja-vu.mp3 */; };
+		8B24351121CD64D300841D19 /* Clandestino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B24350821CD64D300841D19 /* Clandestino.mp3 */; };
+		8B24351221CD64D300841D19 /* Por-Pura-Curiosidad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B24350921CD64D300841D19 /* Por-Pura-Curiosidad.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B2434A221CC3DA300841D19 /* iSongs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSongs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2434A521CC3DA300841D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B2434A721CC3DA300841D19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B2434AA21CC3DA300841D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B2434AC21CC3DA500841D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B2434AF21CC3DA500841D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B2434B121CC3DA500841D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2434B921CC6C2B00841D19 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		8B2434EF21CD624800841D19 /* Dulcito-e-Coco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dulcito-e-Coco.jpg"; sourceTree = "<group>"; };
+		8B2434F021CD624800841D19 /* Al-Filo-de-Tu-Amor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Al-Filo-de-Tu-Amor.jpg"; sourceTree = "<group>"; };
+		8B2434F121CD624800841D19 /* La-Bicicleta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "La-Bicicleta.jpg"; sourceTree = "<group>"; };
+		8B2434F221CD624800841D19 /* Robarte-un-Beso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Robarte-un-Beso.jpg"; sourceTree = "<group>"; };
+		8B2434F321CD624800841D19 /* Por-Pura-Curiosidad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Por-Pura-Curiosidad.jpg"; sourceTree = "<group>"; };
+		8B2434F421CD624800841D19 /* Te-Sigo-Esperando.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Te-Sigo-Esperando.jpg"; sourceTree = "<group>"; };
+		8B2434F521CD624800841D19 /* Clandestino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Clandestino.jpg; sourceTree = "<group>"; };
+		8B2434F621CD624800841D19 /* Deja-vu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Deja-vu.jpg"; sourceTree = "<group>"; };
+		8B2434F721CD624800841D19 /* El-Ratico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "El-Ratico.jpg"; sourceTree = "<group>"; };
+		8B24350121CD64D300841D19 /* Te-Sigo-Esperando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Te-Sigo-Esperando.mp3"; sourceTree = "<group>"; };
+		8B24350221CD64D300841D19 /* Al-Filo-de-Tu-Amor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Al-Filo-de-Tu-Amor.mp3"; sourceTree = "<group>"; };
+		8B24350321CD64D300841D19 /* La-Bicicleta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "La-Bicicleta.mp3"; sourceTree = "<group>"; };
+		8B24350421CD64D300841D19 /* Robarte-un-Beso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Robarte-un-Beso.mp3"; sourceTree = "<group>"; };
+		8B24350521CD64D300841D19 /* El-Ratico.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "El-Ratico.mp3"; sourceTree = "<group>"; };
+		8B24350621CD64D300841D19 /* Dulcito-e-Coco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dulcito-e-Coco.mp3"; sourceTree = "<group>"; };
+		8B24350721CD64D300841D19 /* Deja-vu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Deja-vu.mp3"; sourceTree = "<group>"; };
+		8B24350821CD64D300841D19 /* Clandestino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Clandestino.mp3; sourceTree = "<group>"; };
+		8B24350921CD64D300841D19 /* Por-Pura-Curiosidad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Por-Pura-Curiosidad.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B24349F21CC3DA300841D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B24349921CC3DA300841D19 = {
+			isa = PBXGroup;
+			children = (
+				8B2434A421CC3DA300841D19 /* iSongs */,
+				8B2434A321CC3DA300841D19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B2434A321CC3DA300841D19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B2434A221CC3DA300841D19 /* iSongs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B2434A421CC3DA300841D19 /* iSongs */ = {
+			isa = PBXGroup;
+			children = (
+				8B2434B921CC6C2B00841D19 /* SongCell.swift */,
+				8B2434B821CC3E0000841D19 /* Covers */,
+				8B2434B721CC3DEC00841D19 /* Songs */,
+				8B2434A521CC3DA300841D19 /* AppDelegate.swift */,
+				8B2434A721CC3DA300841D19 /* ViewController.swift */,
+				8B2434A921CC3DA300841D19 /* Main.storyboard */,
+				8B2434AC21CC3DA500841D19 /* Assets.xcassets */,
+				8B2434AE21CC3DA500841D19 /* LaunchScreen.storyboard */,
+				8B2434B121CC3DA500841D19 /* Info.plist */,
+			);
+			path = iSongs;
+			sourceTree = "<group>";
+		};
+		8B2434B721CC3DEC00841D19 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				8B24350221CD64D300841D19 /* Al-Filo-de-Tu-Amor.mp3 */,
+				8B24350821CD64D300841D19 /* Clandestino.mp3 */,
+				8B24350721CD64D300841D19 /* Deja-vu.mp3 */,
+				8B24350621CD64D300841D19 /* Dulcito-e-Coco.mp3 */,
+				8B24350521CD64D300841D19 /* El-Ratico.mp3 */,
+				8B24350321CD64D300841D19 /* La-Bicicleta.mp3 */,
+				8B24350921CD64D300841D19 /* Por-Pura-Curiosidad.mp3 */,
+				8B24350421CD64D300841D19 /* Robarte-un-Beso.mp3 */,
+				8B24350121CD64D300841D19 /* Te-Sigo-Esperando.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		8B2434B821CC3E0000841D19 /* Covers */ = {
+			isa = PBXGroup;
+			children = (
+				8B2434F021CD624800841D19 /* Al-Filo-de-Tu-Amor.jpg */,
+				8B2434F521CD624800841D19 /* Clandestino.jpg */,
+				8B2434F621CD624800841D19 /* Deja-vu.jpg */,
+				8B2434EF21CD624800841D19 /* Dulcito-e-Coco.jpg */,
+				8B2434F721CD624800841D19 /* El-Ratico.jpg */,
+				8B2434F121CD624800841D19 /* La-Bicicleta.jpg */,
+				8B2434F321CD624800841D19 /* Por-Pura-Curiosidad.jpg */,
+				8B2434F221CD624800841D19 /* Robarte-un-Beso.jpg */,
+				8B2434F421CD624800841D19 /* Te-Sigo-Esperando.jpg */,
+			);
+			path = Covers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B2434A121CC3DA300841D19 /* iSongs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2434B421CC3DA500841D19 /* Build configuration list for PBXNativeTarget "iSongs" */;
+			buildPhases = (
+				8B24349E21CC3DA300841D19 /* Sources */,
+				8B24349F21CC3DA300841D19 /* Frameworks */,
+				8B2434A021CC3DA300841D19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSongs;
+			productName = iSongs;
+			productReference = 8B2434A221CC3DA300841D19 /* iSongs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B24349A21CC3DA300841D19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Developer GaiaTelcom";
+				TargetAttributes = {
+					8B2434A121CC3DA300841D19 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B24349D21CC3DA300841D19 /* Build configuration list for PBXProject "iSongs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B24349921CC3DA300841D19;
+			productRefGroup = 8B2434A321CC3DA300841D19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B2434A121CC3DA300841D19 /* iSongs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B2434A021CC3DA300841D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B24350A21CD64D300841D19 /* Te-Sigo-Esperando.mp3 in Resources */,
+				8B24350021CD624800841D19 /* El-Ratico.jpg in Resources */,
+				8B24350C21CD64D300841D19 /* La-Bicicleta.mp3 in Resources */,
+				8B24350F21CD64D300841D19 /* Dulcito-e-Coco.mp3 in Resources */,
+				8B2434FC21CD624800841D19 /* Por-Pura-Curiosidad.jpg in Resources */,
+				8B2434F821CD624800841D19 /* Dulcito-e-Coco.jpg in Resources */,
+				8B2434FE21CD624800841D19 /* Clandestino.jpg in Resources */,
+				8B24350D21CD64D300841D19 /* Robarte-un-Beso.mp3 in Resources */,
+				8B2434FA21CD624800841D19 /* La-Bicicleta.jpg in Resources */,
+				8B2434F921CD624800841D19 /* Al-Filo-de-Tu-Amor.jpg in Resources */,
+				8B2434FF21CD624800841D19 /* Deja-vu.jpg in Resources */,
+				8B24350B21CD64D300841D19 /* Al-Filo-de-Tu-Amor.mp3 in Resources */,
+				8B2434FD21CD624800841D19 /* Te-Sigo-Esperando.jpg in Resources */,
+				8B2434B021CC3DA500841D19 /* LaunchScreen.storyboard in Resources */,
+				8B24350E21CD64D300841D19 /* El-Ratico.mp3 in Resources */,
+				8B2434AD21CC3DA500841D19 /* Assets.xcassets in Resources */,
+				8B24351021CD64D300841D19 /* Deja-vu.mp3 in Resources */,
+				8B24351221CD64D300841D19 /* Por-Pura-Curiosidad.mp3 in Resources */,
+				8B24351121CD64D300841D19 /* Clandestino.mp3 in Resources */,
+				8B2434AB21CC3DA300841D19 /* Main.storyboard in Resources */,
+				8B2434FB21CD624800841D19 /* Robarte-un-Beso.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B24349E21CC3DA300841D19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2434A821CC3DA300841D19 /* ViewController.swift in Sources */,
+				8B2434BA21CC6C2B00841D19 /* SongCell.swift in Sources */,
+				8B2434A621CC3DA300841D19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B2434A921CC3DA300841D19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2434AA21CC3DA300841D19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B2434AE21CC3DA500841D19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2434AF21CC3DA500841D19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B2434B221CC3DA500841D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B2434B321CC3DA500841D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B2434B521CC3DA500841D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iSongs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wdddd.iSongs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B2434B621CC3DA500841D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iSongs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wdddd.iSongs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B24349D21CC3DA300841D19 /* Build configuration list for PBXProject "iSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2434B221CC3DA500841D19 /* Debug */,
+				8B2434B321CC3DA500841D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2434B421CC3DA500841D19 /* Build configuration list for PBXNativeTarget "iSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2434B521CC3DA500841D19 /* Debug */,
+				8B2434B621CC3DA500841D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B24349A21CC3DA300841D19 /* Project object */;
+}
