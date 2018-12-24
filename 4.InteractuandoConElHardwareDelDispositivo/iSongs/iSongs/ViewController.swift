@@ -49,8 +49,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     @IBAction func playBtn(_ sender: UIButton) {
-        let index = sender.tag
-        
+        play(index: sender.tag)
+    }
+    
+    func play(index: Int) {
         if currentIndex == index {
             player.play()
             return
@@ -59,7 +61,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if currentIndex != -1 && player.isPlaying {
             player.pause()
         }
-       currentIndex = index
+        currentIndex = index
         self.tblViewSongs.selectRow(at: IndexPath(row: index, section: 0), animated: true, scrollPosition: .middle)
         
         let title = self.songs[index][0]
@@ -142,5 +144,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        play(index: indexPath.row)
+    }
 }
 
